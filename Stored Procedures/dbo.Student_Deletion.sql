@@ -1,0 +1,10 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+	CREATE PROCEDURE [dbo].[Student_Deletion](@St_ID int)
+	AS BEGIN
+	DELETE FROM dbo.Student
+	WHERE ST_id=@ST_id
+    END
+GO

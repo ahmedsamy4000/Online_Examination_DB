@@ -1,0 +1,10 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROCEDURE [dbo].[Student_Course_Deletion](@St_ID INT,@Crs_ID INT)
+	AS BEGIN
+	DELETE FROM dbo.Student_Course
+	WHERE ST_id=@ST_id AND Crs_ID=@Crs_ID
+    END
+GO
