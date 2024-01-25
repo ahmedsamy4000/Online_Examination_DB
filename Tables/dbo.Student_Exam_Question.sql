@@ -12,5 +12,3 @@ ALTER TABLE [dbo].[Student_Exam_Question] ADD CONSTRAINT [FK_Student_Exam_Questi
 GO
 ALTER TABLE [dbo].[Student_Exam_Question] ADD CONSTRAINT [FK_Student_Exam_Question_Question] FOREIGN KEY ([Question_ID]) REFERENCES [dbo].[Question] ([Question_ID])
 GO
-ALTER TABLE [dbo].[Student_Exam_Question] ADD CONSTRAINT [FK_Student_Exam_Question_Student] FOREIGN KEY ([ST_ID]) REFERENCES [dbo].[Student] ([ST_ID])
-GO
