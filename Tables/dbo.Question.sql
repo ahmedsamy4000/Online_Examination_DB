@@ -3,7 +3,7 @@ CREATE TABLE [dbo].[Question]
 [Question_ID] [int] NOT NULL,
 [Type] [varchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [Grade] [int] NULL,
-[Body] [varchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Body] [varchar] (250) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [Model_Answer] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [Crs_ID] [int] NOT NULL
 ) ON [PRIMARY]
