@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[Course]
 (
-[Crs_ID] [int] NOT NULL,
+[Crs_ID] [float] NOT NULL,
 [Crs_name] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [Ins_ID] [int] NULL
 ) ON [PRIMARY]

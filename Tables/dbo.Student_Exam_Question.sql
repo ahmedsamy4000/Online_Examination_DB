@@ -1,7 +1,7 @@
 CREATE TABLE [dbo].[Student_Exam_Question]
 (
 [ST_ID] [int] NOT NULL,
-[Question_ID] [int] NOT NULL,
+[Question_ID] [float] NOT NULL,
 [Exam_ID] [int] NOT NULL,
 [Student_Answer] [varchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 ) ON [PRIMARY]
