@@ -1,7 +1,7 @@
 CREATE TABLE [dbo].[Student_Course]
 (
 [St_ID] [int] NOT NULL,
-[Crs_ID] [float] NOT NULL
+[Crs_ID] [int] NOT NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[Student_Course] ADD CONSTRAINT [PK_Student_Course] PRIMARY KEY CLUSTERED ([St_ID], [Crs_ID]) ON [PRIMARY]

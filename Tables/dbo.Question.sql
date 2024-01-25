@@ -1,11 +1,11 @@
 CREATE TABLE [dbo].[Question]
 (
-[Question_ID] [float] NOT NULL,
+[Question_ID] [int] NOT NULL,
 [Type] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
-[Grade] [float] NOT NULL,
+[Grade] [int] NOT NULL,
 [Body] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 [Model_Answer] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
-[Crs_ID] [float] NOT NULL
+[Crs_ID] [int] NOT NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[Question] ADD CONSTRAINT [PK_Question] PRIMARY KEY CLUSTERED ([Question_ID]) ON [PRIMARY]
