@@ -1,0 +1,6 @@
+INSERT INTO [dbo].[Department] ([Dep_ID], [Dep_name], [Manager_ID]) VALUES (1, 'SD', 1)
+INSERT INTO [dbo].[Department] ([Dep_ID], [Dep_name], [Manager_ID]) VALUES (2, 'NC', 2)
+INSERT INTO [dbo].[Department] ([Dep_ID], [Dep_name], [Manager_ID]) VALUES (3, 'Java', 3)
+INSERT INTO [dbo].[Department] ([Dep_ID], [Dep_name], [Manager_ID]) VALUES (4, 'Cloud', 4)
+INSERT INTO [dbo].[Department] ([Dep_ID], [Dep_name], [Manager_ID]) VALUES (5, 'ML', 5)
+INSERT INTO [dbo].[Department] ([Dep_ID], [Dep_name], [Manager_ID]) VALUES (6, 'Unix', NULL)
