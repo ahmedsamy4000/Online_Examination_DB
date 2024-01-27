@@ -1,0 +1,8 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROC [dbo].[SelectDepts]
+AS
+SELECT * FROM dbo.Department
+GO
