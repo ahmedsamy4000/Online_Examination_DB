@@ -2,7 +2,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
 GO
-CREATE PROC [dbo].[SelectInsByDept] @DeptId int
+create PROC [dbo].[SelectInstByDept] @DeptId int
 AS
 SELECT * FROM dbo.Instructor
 WHERE 
