@@ -1,0 +1,8 @@
+INSERT INTO [dbo].[Topic] ([Topic_ID], [Topic_Name], [Crs_ID]) VALUES (1, 'Encapsulation ', 1)
+INSERT INTO [dbo].[Topic] ([Topic_ID], [Topic_Name], [Crs_ID]) VALUES (2, 'Polymorphism ', 1)
+INSERT INTO [dbo].[Topic] ([Topic_ID], [Topic_Name], [Crs_ID]) VALUES (3, 'Inheritance ', 1)
+INSERT INTO [dbo].[Topic] ([Topic_ID], [Topic_Name], [Crs_ID]) VALUES (4, 'Abstraction', 1)
+INSERT INTO [dbo].[Topic] ([Topic_ID], [Topic_Name], [Crs_ID]) VALUES (5, 'Networking Models', 2)
+INSERT INTO [dbo].[Topic] ([Topic_ID], [Topic_Name], [Crs_ID]) VALUES (6, 'Data Transmission', 2)
+INSERT INTO [dbo].[Topic] ([Topic_ID], [Topic_Name], [Crs_ID]) VALUES (7, 'Networking Devices', 2)
+INSERT INTO [dbo].[Topic] ([Topic_ID], [Topic_Name], [Crs_ID]) VALUES (8, 'Network Topologies', 2)
