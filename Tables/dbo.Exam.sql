@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[Exam]
 (
-[Exam_ID] [int] NOT NULL,
+[Exam_ID] [int] NOT NULL IDENTITY(3, 1),
 [Date] [date] NULL,
 [Duration] [int] NULL,
 [Crs_ID] [int] NOT NULL
