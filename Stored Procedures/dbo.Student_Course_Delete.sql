@@ -1,0 +1,14 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROC [dbo].[Student_Course_Delete] @stid int
+AS
+BEGIN TRY
+DELETE FROM dbo.Student_Course
+WHERE St_ID = @stid
+END TRY
+BEGIN CATCH
+SELECT'cannot delete'
+END CATCH
+GO
