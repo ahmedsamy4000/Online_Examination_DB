@@ -2,7 +2,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
 GO
-CREATE PROCEDURE [dbo].[Student_Course_Selection]
+CREATE PROCEDURE [dbo].[SelectFromStudentCourse]
 AS BEGIN
 SELECT * FROM dbo.Student_Course
 END

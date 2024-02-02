@@ -2,7 +2,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
 GO
-CREATE PROCEDURE [dbo].[Student_Update](
+CREATE PROCEDURE [dbo].[UpdateStudent](
 	@ST_id INT,
     @ST_Fname VARCHAR(30),
     @ST_Lname VARCHAR(30),

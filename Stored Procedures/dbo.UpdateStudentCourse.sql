@@ -2,7 +2,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
 GO
-CREATE PROCEDURE [dbo].[Student_Course_Update](
+CREATE PROCEDURE [dbo].[UpdateStudentCourse](
 	@ST_id INT,
 	@Crs_id INT)
 	AS
