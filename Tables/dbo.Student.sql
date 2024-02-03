@@ -1,6 +1,6 @@
 CREATE TABLE [dbo].[Student]
 (
-[St_ID] [int] NOT NULL IDENTITY(1, 1),
+[St_ID] [int] NOT NULL IDENTITY(16, 1),
 [ST_Fname] [varchar] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [ST_Lname] [varchar] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [ST_Email] [varchar] (30) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
