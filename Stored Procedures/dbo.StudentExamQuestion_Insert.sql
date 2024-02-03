@@ -2,7 +2,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
 GO
-CREATE PROCEDURE [dbo].[InsertStudentExamQuestion]
+CREATE PROCEDURE [dbo].[StudentExamQuestion_Insert]
     @ST_ID INT,
     @Question_ID INT,
     @Exam_ID INT,

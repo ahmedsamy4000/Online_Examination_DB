@@ -2,7 +2,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
 GO
-CREATE PROCEDURE [dbo].[InsertTopic]
+CREATE PROCEDURE [dbo].[Topic_Insert]
     @Topic_ID INT,
     @Topic_Name VARCHAR(50),
     @Crs_ID INT

@@ -2,12 +2,11 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
 GO
-CREATE PROCEDURE [dbo].[SelectTopic]
+CREATE PROCEDURE [dbo].[Topic_Delete]
     @Topic_ID INT
 AS
 BEGIN
-    SELECT *
-    FROM Topic
+    DELETE FROM Topic
     WHERE Topic_ID = @Topic_ID
 END
 GO
