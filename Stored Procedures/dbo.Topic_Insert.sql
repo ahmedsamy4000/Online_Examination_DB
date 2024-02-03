@@ -2,13 +2,13 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
 GO
-CREATE PROCEDURE [dbo].[Topic_Insert]
-    @Topic_ID INT,
-    @Topic_Name VARCHAR(50),
-    @Crs_ID INT
+CREATE PROC [dbo].[Topic_Insert] (@Topic_ID INT, @Topic_Name VARCHAR(50),  @Crs_ID INT)
 AS
-BEGIN
-    INSERT INTO Topic (Topic_ID, Topic_Name, Crs_ID)
+BEGIN TRY
+INSERT INTO Topic (Topic_ID, Topic_Name, Crs_ID)
     VALUES (@Topic_ID, @Topic_Name, @Crs_ID)
-END
+	END TRY
+BEGIN CATCH 
+SELECT 'Enter valid Data'
+END CATCH
 GO

@@ -8,8 +8,11 @@ CREATE PROCEDURE [dbo].[StudentExamQuestion_Insert]
     @Exam_ID INT,
     @Student_Answer VARCHAR(100)
 AS
-BEGIN
+ BEGIN TRY 
     INSERT INTO Student_Exam_Question (ST_ID, Question_ID, Exam_ID, Student_Answer)
     VALUES (@ST_ID, @Question_ID, @Exam_ID, @Student_Answer)
-END
+END TRY
+BEGIN CATCH 
+SELECT 'Enter a valid data'
+END CATCH
 GO
