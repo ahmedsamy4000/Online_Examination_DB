@@ -1,0 +1,14 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROC [dbo].[Exam_Questions_Insert] @Ex_id INT, @Q_ID INT
+AS
+BEGIN TRY 
+  INSERT INTO Exam_Questions
+  VALUES(@Ex_id, @Q_ID)
+END TRY 
+BEGIN CATCH
+	SELECT 'can not insert'
+END CATCH 
+GO

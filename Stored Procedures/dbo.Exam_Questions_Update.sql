@@ -1,0 +1,15 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROC [dbo].[Exam_Questions_Update] @Ex_id INT, @Q_ID INT
+AS
+BEGIN TRY 
+	UPDATE Exam_Questions
+	SET Question_ID = @Q_ID
+	WHERE Exam_ID=@Ex_id
+END TRY 
+BEGIN CATCH
+	SELECT 'can not update'
+END CATCH 
+GO
