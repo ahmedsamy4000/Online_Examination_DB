@@ -2,7 +2,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 SET ANSI_NULLS ON
 GO
-CREATE proc [dbo].[get_stud_grades] @stud_id int
+CREATE proc [dbo].[Student_Grade_Report] @stud_id int
 as
 	if exists(select * from Student where @stud_id = St_ID)
 	begin
