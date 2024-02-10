@@ -1,5 +1,6 @@
+SET IDENTITY_INSERT [dbo].[Question] ON
 INSERT INTO [dbo].[Question] ([Question_ID], [Type], [Grade], [Body], [Model_Answer], [Crs_ID]) VALUES (1, N'MCQ', 5, N'Which is not a feature of OOP in general definitions', N'Duplicate/Redundant data', 1)
-INSERT INTO [dbo].[Question] ([Question_ID], [Type], [Grade], [Body], [Model_Answer], [Crs_ID]) VALUES (2, N'MCQ', 5, N'Which was the first purely object oriented programming language developed?', N'SmallTalk', 1)
+INSERT INTO [dbo].[Question] ([Question_ID], [Type], [Grade], [Body], [Model_Answer], [Crs_ID]) VALUES (2, N'MCQ', 5, N'Which was the first purely object oriented programming language developed?', N'Duplicate/Redundant data', 1)
 INSERT INTO [dbo].[Question] ([Question_ID], [Type], [Grade], [Body], [Model_Answer], [Crs_ID]) VALUES (3, N'MCQ', 5, N'When OOP concept did first came into picture?', N'1970’s', 1)
 INSERT INTO [dbo].[Question] ([Question_ID], [Type], [Grade], [Body], [Model_Answer], [Crs_ID]) VALUES (4, N'MCQ', 5, N'Which feature of OOP indicates code reusability?', N'Inheritance', 1)
 INSERT INTO [dbo].[Question] ([Question_ID], [Type], [Grade], [Body], [Model_Answer], [Crs_ID]) VALUES (5, N'MCQ', 5, N'Which header file is required in C++ to use OOP?', N'OOP can be used without using any header file', 1)
@@ -38,3 +39,4 @@ INSERT INTO [dbo].[Question] ([Question_ID], [Type], [Grade], [Body], [Model_Ans
 INSERT INTO [dbo].[Question] ([Question_ID], [Type], [Grade], [Body], [Model_Answer], [Crs_ID]) VALUES (38, N'TF', 3, N'FTP (File Transfer Protocol) is used for real-time communication between two devices.', N'FALSE', 2)
 INSERT INTO [dbo].[Question] ([Question_ID], [Type], [Grade], [Body], [Model_Answer], [Crs_ID]) VALUES (39, N'TF', 3, N'ARP (Address Resolution Protocol) is used to map IP addresses to MAC addresses.', N'TRUE', 2)
 INSERT INTO [dbo].[Question] ([Question_ID], [Type], [Grade], [Body], [Model_Answer], [Crs_ID]) VALUES (40, N'TF', 3, N'IPv6 addresses are 32 bits in length and are represented in decimal format.', N'FALSE', 2)
+SET IDENTITY_INSERT [dbo].[Question] OFF
