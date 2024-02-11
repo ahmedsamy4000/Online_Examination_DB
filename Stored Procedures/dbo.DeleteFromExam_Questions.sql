@@ -1,9 +1,0 @@
-SET QUOTED_IDENTIFIER ON
-GO
-SET ANSI_NULLS ON
-GO
-CREATE PROC [dbo].[DeleteFromExam_Questions] @Ex_id INT
-AS
-DELETE FROM Exam_Questions
-WHERE Exam_ID = @Ex_id
-GO

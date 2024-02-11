@@ -1,9 +1,0 @@
-SET QUOTED_IDENTIFIER ON
-GO
-SET ANSI_NULLS ON
-GO
-CREATE PROC [dbo].[insertIntoExam_Questions] @Ex_id INT, @Q_ID INT
-AS
-INSERT INTO Exam_Questions
-VALUES(@Ex_id, @Q_ID)
-GO
