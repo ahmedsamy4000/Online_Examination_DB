@@ -10,3 +10,5 @@ CREATE TABLE [dbo].[Student]
 GO
 ALTER TABLE [dbo].[Student] ADD CONSTRAINT [PK_Student] PRIMARY KEY CLUSTERED ([St_ID]) ON [PRIMARY]
 GO
+ALTER TABLE [dbo].[Student] ADD CONSTRAINT [FK_Student_Department] FOREIGN KEY ([Dept_Id]) REFERENCES [dbo].[Department] ([Dep_ID])
+GO
