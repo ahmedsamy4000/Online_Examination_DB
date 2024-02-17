@@ -1,7 +1,7 @@
 CREATE TABLE [dbo].[Question]
 (
 [Question_ID] [int] NOT NULL IDENTITY(41, 1),
-[Type] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+[Type] [nvarchar] (20) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 [Grade] [int] NOT NULL,
 [Body] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
 [Model_Answer] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
